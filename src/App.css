@@ -47,3 +47,16 @@
   /* background: darkgrey; */
   padding: 16px;
 }
+
+.card {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.cardVal {
+  margin: 6px;
+}
+
+.charts {
+  background: white;
+}

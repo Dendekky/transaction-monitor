@@ -72,6 +72,9 @@ const useStyles = makeStyles(theme => ({
       width: 200,
     },
   },
+  img: {
+    padding: '6px',
+  },
   profileImg: {
     borderRadius: '50%',
   },
@@ -185,7 +188,9 @@ export default function PrimaryAppBar() {
           >
             <MenuIcon />
           </IconButton> */}
-          <img src={require('../assets/img/TransMonitor.png')} />
+          <img 
+          className={classes.img}
+          src={require('../assets/img/TransMonitor.png')} />
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
