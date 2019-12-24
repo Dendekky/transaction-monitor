@@ -31,3 +31,19 @@
     transform: rotate(360deg);
   }
 }
+
+.main-disp {
+  display: flex;
+  background: rgb(245, 245, 245);
+}
+
+.sidebar {
+    padding: 8px;
+    background: white;
+    /* width: 20%; */
+}
+
+.dasboard {
+  /* background: darkgrey; */
+  padding: 16px;
+}
